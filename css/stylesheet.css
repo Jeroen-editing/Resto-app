@@ -1,0 +1,50 @@
+* {
+  margin: 0 auto;
+  padding: 0 0; }
+
+.titles {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0.3rem 0; }
+  .titles .titlegroup {
+    width: 100%;
+    padding: 0 0;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column; }
+    .titles .titlegroup .welcome,
+    .titles .titlegroup .whatelse {
+      width: 80%;
+      height: 1.2rem;
+      margin: 0 auto;
+      padding: 0 0;
+      font-family: "Arima";
+      font-size: 1rem;
+      color: #2292b8; }
+    .titles .titlegroup .welcome {
+      text-align: left; }
+    .titles .titlegroup .whatelse {
+      margin: -0.4rem auto 0 auto;
+      text-align: right; }
+    .titles .titlegroup .restoname {
+      width: 100%;
+      height: 2.4rem;
+      margin: 0.2rem auto 0 auto;
+      padding: 0 0;
+      display: flex;
+      flex-direction: row;
+      align-items: flex-end;
+      font-family: "Merienda";
+      color: #f7cc30; }
+      .titles .titlegroup .restoname .name {
+        margin: 0 0.4rem 0 auto;
+        padding: 0 0;
+        font-size: 1.7rem;
+        text-align: center; }
+      .titles .titlegroup .restoname .surname {
+        margin: 0 auto 0.18rem 0.4rem;
+        padding: 0 0;
+        font-size: 1.1rem;
+        text-align: center; }
+
+/*# sourceMappingURL=stylesheet.css.map */
